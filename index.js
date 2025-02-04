@@ -3,6 +3,11 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import connectdb from './db/db.js';
 import pageRoutes from './routes/pageroutes.js';
+import './models/page.js';
+import './models/post.js';
+import './models/comment.js';
+import './models/user.js';
+
 
 dotenv.config();
 

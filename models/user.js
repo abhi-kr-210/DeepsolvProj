@@ -6,5 +6,4 @@ const UserSchema=new mongoose.Schema({
     facebook_id:String
     
 });
-    
-export const User= mongoose.model('User',UserSchema);
+ export default mongoose.model('User',UserSchema);   

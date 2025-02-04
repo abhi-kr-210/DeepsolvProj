@@ -15,4 +15,4 @@ posts:[{type:mongoose.Schema.Types.ObjectId,ref:'Post'}],
 followers:[{type:mongoose.Schema.Types.ObjectId,ref:'User'}],
 following:[{type:mongoose.Schema.Types.ObjectId,ref:'User'}]
 });
-export const Page=mongoose.model('Page',PageSchema);
+export default mongoose.model('Page',PageSchema);

@@ -1,4 +1,4 @@
-import {Page} from '../models/page.js';
+import Page from '../models/page.js';
 import scrapeFacebookPage from '../services/scrapper.js';
 export const getPageDetails=async(req,res)=>{
 try{

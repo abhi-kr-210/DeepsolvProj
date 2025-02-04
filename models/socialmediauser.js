@@ -5,5 +5,4 @@ const SocialMediaUserSchema = new mongoose.Schema({
   facebookId: String,
   profilePic: String,
 });
-
-export const SocialMediaUser = mongoose.model('SocialMediaUser', SocialMediaUserSchema);
+export default mongoose.model('SocialMediaUser', SocialMediaUserSchema);
